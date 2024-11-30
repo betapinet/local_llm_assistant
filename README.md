@@ -31,6 +31,11 @@ sudo apt install ffmpeg
 sudo apt install espeak
 sudo apt install python3-pip
 sudo apt install python3-pyaudio
+
+python3 -m venv llm
+cd llm
+source llm/bin/activate
+
 pip3 install openai openai-whisper RPi.GPIO pyaudio
 
 git clone https://github.com/nickbild/local_llm_assistant
